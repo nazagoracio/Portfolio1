@@ -1,0 +1,175 @@
+body {
+    align:center;
+    margin:auto;
+}
+
+.line {
+  width:100%;
+  height:3px;
+  background-color:black;
+  align:center;
+  
+}
+ul {
+  list-style-type:none;
+}
+#avatar {
+    border-radius:50%;
+  border: 3px solid black;
+  max-width:100%;
+    height: auto;
+
+}
+
+h1 {
+  text-align:center;
+  font-size:28px;
+  }
+
+#about {
+  margin-top:200px;
+  background-color:grey;
+  font-style:italic;
+  color:white;
+  padding-top:70px;
+  padding-left:20px;
+  width:700px;
+  margin:auto;
+  
+}
+
+#portfolio {
+  height:wrapcontent;
+  background-color:white;
+  padding:15px;
+  width:700px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+#contact {
+  height:600px;
+  background-color:lightgrey;
+  padding:15px;
+  width:700px;
+  margin: 0 auto;
+  justify-content: center;
+  color:white;
+}
+
+footer {
+  height:180px;
+  background-color:black;
+  color:white;
+  
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 50%;
+  padding: 20px 10px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 100%;
+  }
+}
+li {
+  float:left;
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.img-responsive {
+  border:2px;
+  margin:5px;
+  padding:5px;
+  width:100%;
+  height:fitparent;
+}
+#writeme {
+  margin-top:10px;
+  font-weight:bold;
+  color:white;
+  font-style:italic;
+  
+}
+footer{
+  color:#000;
+  background-color:#aaa;
+  text-align:center;
+  -webkit-box-shadow:0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+          box-shadow:0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.fa {
+    padding: 25px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.form-item input, .form-item textarea{
+      z-index:1;
+      position:relative;
+      padding-right:0;
+      padding-left:0;
+      border:0;
+      border-radius:0;
+      font-size:1.5em;
+      background:0 0;
+      -webkit-box-shadow:none!important;
+              box-shadow:none!important;
+      resize:none;
+      width:100%;
+  color:white;
+    }
+.form-item input:focus, .form-item textarea:focus{
+        outline:0
+      }
+.form-item label{
+      display:block;
+      z-index:0;
+      position:relative;
+      top:2em;
+      margin:0;
+      font-size:.85em;
+      line-height:1.764705882em;
+      vertical-align:middle;
+      vertical-align:baseline;
+      opacity:0;
+      -webkit-transition:top .3s ease,opacity .3s ease;
+      transition:top .3s ease,opacity .3s ease;
+    }
+.form-item-filled label{
+      top:0;
+      opacity:1;
+      color:#aaa;
+    }
+.form-item-focused label{
+      color:#722872;
+    }
+#socHeader {
+  float:left;
+}
